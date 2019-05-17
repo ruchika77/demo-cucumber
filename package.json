@@ -9,6 +9,7 @@
   "author": "Ruchika",
   "license": "ISC",
   "dependencies": {
-    "cucumber": "^5.1.0"
+    "cucumber": "^5.1.0",
+    "webdriverio": "^5.7.15"
   }
 }

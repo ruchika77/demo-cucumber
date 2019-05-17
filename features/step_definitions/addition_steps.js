@@ -12,6 +12,10 @@ When('they are added together', function () {
     calculator.add();
 });
 
+When('they are subtract together', function () {
+    calculator.subtract();
+});
+
 Then('should the result be {int}', function (expected) {
     assert.equal(calculator.getResult(), expected)
 });
